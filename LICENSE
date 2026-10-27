@@ -1,0 +1,101 @@
+Colibre End-User License Agreement (Terms of Use)
+Last updated: October 22, 2026
+
+Colibre is proprietary, commercial software. It is licensed, not sold, and it is NOT released under the GPL or any other open-source license.
+This English text is a courtesy translation of the Korean Terms of Use (LICENSE.ko). Where they differ, the Korean version prevails.
+Open-source components bundled with the installer are governed by their own licenses: see THIRD_PARTY_NOTICES.md.
+Privacy Policy: https://colibre.app/global/legal/privacy/   Refund Policy: https://colibre.app/global/legal/refund/
+Contact: support@colibre.app
+
+Article 1 (Purpose and Parties)
+   These Terms set out the conditions for using the Colibre software (the "Software" or the "Service") and the rights and obligations of you (the "User") and the developer. The copyright holder and licensor of the Software is Lee BumSuk, an individual (the "Developer"). Business details are listed at the end of these Terms.
+   By installing, copying or using the Software you agree to these Terms. If you do not agree, do not install or use the Software. These Terms are the same as the license agreement shown on the installer screen; they are one agreement.
+
+Article 2 (Nature of the Service)
+   - The Software is a remote desktop Windows app that you install and run on your own PC. In the car’s web browser you see your own PC’s screen, and your phone works as the trackpad and keyboard. DRM-protected content on the remote desktop stays protected, and the Developer does not bypass it.
+   - Connecting to, displaying and controlling your PC screen and handling files all happen only between your own PC and your own devices. The Developer and the Developer’s systems and facilities do not provide, hold, store, relay, cache, transmit or process your PC screen, media or files, and the Developer does not operate any service for that purpose.
+   - Your car or phone connects directly to your PC using your own public IP address and certificate. No Developer system and no third-party intermediary sits on that path.
+   - The Service works by having the car’s web browser connect to your PC and show your PC screen received over a mobile network (such as the car’s LTE); it is a remote desktop. Because of this design, (1) if the car’s browser clears its memory you may need to reopen the screen or reconnect, (2) screen updates and responses may be delayed depending on network conditions (especially car LTE), and (3) it may be slower or may stutter compared with using the PC directly. These are characteristics of how the Service is built. See "Good to know — characteristics and limits of the service" in the user manual for details.
+
+Article 3 (License and Right of Use)
+   - The Developer grants you a non-exclusive, non-transferable, non-sublicensable, revocable license. This is a license, not a sale or a transfer of rights. All rights not expressly granted are reserved by the Developer.
+   - In plain words: you receive only the right to use this program yourself; the program itself is not sold to you. You may not hand it over, lend it or resell it, and the right to use it can be withdrawn if you breach these Terms. Rights not listed here (source code, trademarks and so on) stay with the Developer. (Non-exclusive = other users receive the same right; non-transferable = you cannot pass it on; non-sublicensable = you cannot grant it to others; revocable = it can be withdrawn on breach.)
+   - The Software is for personal use by the person who installs it, under one PC license, on one PC, in one car and with one remote. Using additional remotes requires a separate purchase.
+   - The right to use paid features is a term subscription (monthly) and covers the subscription period. The free trial period and the price are as shown on the purchase screen, and the subscription renews automatically until you cancel it.
+   - A license key is issued for use on one PC.
+   - The Developer may change the price, scope or delivery method of future versions; changed terms apply after notice under Article 13. No additional charge is made retroactively for a subscription period that has already been paid.
+
+Article 4 (Payment)
+   Payment, billing, taxes, receipts and refunds are handled by our payment service provider (the "Payment Provider"). When you pay, the Payment Provider’s buyer terms apply together with these Terms. Refunds follow the Refund Policy (https://colibre.app/global/legal/refund/): within 7 days of any charge we refund on request, no questions asked.
+
+Article 5 (Prohibited Acts)
+   Except where these Terms or mandatory law expressly allow it, the following are prohibited.
+   - Copying, redistributing, publishing, selling, reselling, renting, lending or sublicensing the installer, the Software or any part of it
+   - Modifying, translating, adapting or creating derivative works
+   - Decompiling, reverse engineering or disassembling, or trying to discover the source code (except to the extent the law expressly permits)
+   - Removing, bypassing or disabling technical protection measures such as obfuscation, license checks or usage-period limits
+   - Removing or altering copyright, trademark or license notices
+   - Sharing your PC address and login details with other people or publishing them on the internet, public broadcasting, and commercial use
+   - Using the Software to access content in a way the content owner or the relevant service does not allow (for example, bypassing access limits on paid or members-only content, or using an account that is not your own)
+   - Using the Software to infringe the rights of others or to breach the terms of use of a third-party service
+
+Article 6 (Ownership and Open-Source Components)
+   The source code of the Software is not published, and all rights, including intellectual property rights, belong to the Developer.
+   Open-source components bundled with the Software are governed by their own licenses, not by these Terms, and these Terms do not limit your rights under those licenses. The installer includes third-party open-source programs such as FFmpeg (an LGPL-3.0 build in which the license provider changed one Direct3D 11-related part), yt-dlp and Node.js. They run as separate programs, are governed by their own licenses, and these Terms do not restrict the rights those licenses give you (copying, modifying, replacing with a build you made yourself, reverse engineering and so on). The component list and full license texts are in the open-source notices and in the licenses folder of the installation. The complete source, patch and build instructions for the modified FFmpeg are at https://github.com/sangre72/ffmpeg/tree/n8.1.3-17-d3d11fix , and the Developer will provide the source on request through the contact address.
+
+Article 7 (Third-Party Services and Content)
+   - When you use the relevant feature, the Software installed on your PC connects directly from your PC to these third-party services: checking for and downloading new versions of the bundled open-source tool yt-dlp (GitHub), fetching the internet radio station list (Radio Browser — only when you press "Get radio channels"), listening to radio (each station’s broadcast server), album information and cover art (MusicBrainz, Cover Art Archive), lyrics (LRCLIB), public IP detection (ipify and similar IP lookup services), certificate issuance (Let’s Encrypt), and payment and license verification (the Payment Provider). These connections do not pass through any Developer system.
+   - Content such as radio and My Media belongs to its respective rights holders. All connecting, playing, converting and storing happens solely on your own PC. The Developer and the Developer’s systems and facilities do not provide, hold, store, relay, cache, transmit or process third-party content, and no Developer system is a point through which that content passes or is stored. The Developer grants no rights in third-party content.
+   - The media-access features of the Software are only a one-to-one personal playback connection between your own PC and your own devices (car, phone); they are not public redistribution or broadcasting to an unspecified audience. The Developer respects the legitimate rights of content owners. Accordingly, if a third-party service or its rights holder so requests, or where necessary to comply with law or a service’s terms, the Developer may suspend, restrict or block all or part of the personal playback connection for that service without prior notice. This is not meant to restrict your rights unfairly but to keep a lawful and sustainable environment. Any suspension, restriction or block is carried out only through a software update or a feature-setting change, and in doing so the Developer does not view or collect your content or playback history.
+   - Track information: MusicBrainz (musicbrainz.org). Release data comes from the MusicBrainz database, which is published under CC0 (public domain).
+   - Album art: Cover Art Archive (coverartarchive.org, operated by MusicBrainz and the Internet Archive). Copyright in cover images belongs to their rights holders. The Software downloads and caches on your PC the cover for a track playing on your PC only to display it on screen, and does not redistribute it.
+   - Lyrics: LRCLIB (lrclib.net). Copyright in lyrics belongs to their rights holders. The Software downloads the lyrics of the track being played and stores them on your PC only to display them on screen, and does not redistribute them.
+   - These services are third-party services unrelated to the Developer, and their information may be missing or wrong. If a music file contains its own information (tags, artwork, .lrc lyrics), that is used first.
+   - Radio: the Software provides only a radio player. On first install the station list is empty and no stations are pre-loaded. Only when you choose a country and press "Get radio channels" does your PC fetch, from a public station directory (Radio Browser), the stream addresses that stations have published, and save them on your PC (in the data folder of the installation) — an address-collection aid for you. The list stays on that PC and is not fetched automatically when you open the tab. Only public addresses that anyone can listen to are fetched; addresses needing a login or authentication token, or that could not be verified to work, are not fetched. You decide which country’s list to fetch and which stations to listen to or hide. The broadcast is received by your PC directly from each station’s server, passed through the sound settings (volume leveling, effects) on that PC, and sent only to your own registered car or phone. This delivery takes place only between your PC and your own devices and does not pass through any Developer system. The Developer does not provide, store or forward broadcasts and is not the owner or redistributor of any broadcast. Rights in the broadcasts belong to each station. If a station changes its address or stops transmitting, that station may become unavailable, and names and quality information in the list are exactly as written in the public directory.
+   - In plain words: the app is just a player that plays radio, and the broadcasts belong to the stations. The app only helps collect addresses that are publicly available on the internet; you choose what to fetch and listen to. Broadcasts can change or drop because of the stations.
+   - My Media: this feature plays music and video files that you yourself have put in the Media folder (inside the installation folder) of the PC where Colibre is installed, sending them from that PC to your registered car or phone. Files are not uploaded anywhere, and there is no feature to upload files from a phone or car to the PC. The Developer provides no content (the Demo test files included at install are an exception; their source and license are in CREDITS.txt in the Demo folder). The files you add are yours; you must have the legitimate right to use them (for example copies you bought or lawfully own) and use them for personal purposes only. Do not use this app for public screenings or to share or redistribute them. The Developer does not inspect or keep your files.
+   - In plain words: this is a feature for watching your own files, which you put on your PC, in your car or on your phone. The files never leave your PC, and the Developer does not look at or take them. The files must be ones you legitimately own, and are for personal viewing only.
+   - Responsibility for complying with copyright law and each service’s terms of use rests with you. If a problem arises or something seems to conflict with terms or law, stop using the feature immediately.
+   - Some features may stop working without notice because of changes at third-party services.
+
+Article 8 (Prohibited Acts — Continued; Diagnostics)
+   Reverse engineering, removing obfuscation and unauthorized access to content are breaches of these Terms. The information the Developer receives is described in the Privacy Policy (https://colibre.app/global/legal/privacy/).
+   Diagnostics: diagnosing errors in the program itself is free of charge. Diagnosing suspected hacking or intrusion, checking security events, and diagnosing network-environment problems such as the router, the network or the firewall are a separate service, not part of the basic right of use, and carry a per-case fee; the fee and procedure are given by the support email (support@colibre.app) on request, and work proceeds only if you agree. See section 6 of the Privacy Policy (https://colibre.app/global/legal/privacy/) for details.
+
+Article 9 (Disclaimer of Warranty)
+   To the maximum extent permitted by law, the Software is provided "AS IS" and "AS AVAILABLE", without warranties of any kind, express or implied, including merchantability, fitness for a particular purpose, non-infringement, and uninterrupted or error-free operation.
+   The Developer does not warrant that the service characteristics described in the last paragraph of Article 2 (reconnecting after browser memory is cleared, screen delay depending on network conditions, stuttering) will not occur, that is, does not warrant uninterrupted or instant response, and is not liable for delay or interruption caused by them unless there is intent or gross negligence.
+
+Article 10 (Limitation of Liability)
+   - To the maximum extent permitted by law, the Developer is not liable for indirect, incidental, special, consequential or punitive damages, or for loss of data, profits or use. The Developer’s total liability does not exceed the amount you paid for the usage period in effect when the problem arose.
+   - In plain words: the most the Developer can owe you if something goes wrong is the fee you paid for the usage period (month or year) you were using at the time.
+   - Liability for intent or gross negligence, and liability that cannot be excluded by law, such as non-waivable consumer rights, is not excluded.
+   - While driving you must obey the applicable laws and put safety first; the Developer is not liable for accidents caused by operating the Software while driving.
+   - The Developer is not liable for damage caused by reasons beyond its control, such as your PC, network, router or certificate settings, or communication failures.
+
+Article 11 (Termination)
+   If you breach these Terms, your license ends automatically. Cancel a subscription as described in the Refund Policy (https://colibre.app/global/legal/refund/). After the subscription period ends you can still use radio and the settings and payment screens, and you may leave the program installed. Articles 5 to 15 remain in effect after termination to the extent their nature requires.
+
+Article 12 (Keeping and Losing License Keys and Registration Numbers)
+   - Your subscription is tied to the license key issued by the Payment Provider and works separately from the registration number (PIN, 15 digits). Losing the registration number does not end your subscription.
+   - You cancel a subscription, check a license key or get a receipt through the Payment Provider using the email you bought with; a registration number is not needed (use the “Manage billing / cancel” link in Settings, which opens the Payment Provider’s customer portal).
+   - A registration number is issued for each installed PC. The Developer cannot reissue or look it up for you.
+   - If a phone you registered during setup is still signed in, you can view it again at the top of Settings.
+   - Reissuing is allowed up to 5 times per day per installed PC, and the count resets at midnight Korea time.
+   - A registered device (phone or car) can reissue from anywhere on an external network, including mobile data. An unregistered device can reissue at your home Wi-Fi or on the installed PC; away from home, a registered device (for example the car screen) must see the same 6-digit confirmation number and approve.
+   - When you reissue, the old registration number and password become invalid immediately, and a notice appears on every device screen and on the installed PC.
+   - If you lose a registered device, remove it from the device list right away.
+   - The last resort when reissuing also fails is to choose "Delete settings too" when uninstalling the app and then reinstall. You get a new registration number and must set up devices and settings again from scratch. It is not guaranteed that your paid license carries over automatically. If the key is already linked to this PC, it may be rejected as "registered on another PC", so before uninstalling, use "Release this PC" under Settings > License first. If it is rejected, contact support from your purchase email.
+   - When moving to another PC, release the license on the PC you were using ("Release this PC") before entering the key on the new PC (1 key = 1 PC).
+   - You are responsible for keeping your license key, purchase email account, registration number and password safe. The Developer cannot reissue a license key or cancel a payment for you.
+   - The Developer is not liable for damage caused by losing them, such as being unable to use the Service or the effort of resetting, unless there is intent or gross negligence. If a problem arises, contact the Developer’s support email (support@colibre.app).
+
+Article 13 (Changes to These Terms)
+   The Developer may change these Terms to the extent it does not violate applicable law, and will post the effective date and the changes on the service screen at least 7 days before they take effect (30 days before for changes that are unfavorable to you). If you keep using the Service after the effective date, you are treated as having accepted the changed Terms; if you do not agree, you may cancel your subscription.
+
+Article 14 (Governing Law and Jurisdiction)
+   These Terms are governed by the laws of the Republic of Korea, and disputes fall under the jurisdiction of the courts of the Republic of Korea. Mandatory consumer-protection rules of your place of residence apply where they exist. For payment, billing and refunds, the Payment Provider’s terms also apply.
+
+Article 15 (Entire Agreement and Language)
+   These Terms are the entire agreement about the Software and supersede earlier statements. If a provision is unenforceable, the remaining provisions stay valid. These Terms are written in Korean; this English version is provided for convenience, and if it differs from another language version, the Korean version prevails.
+
