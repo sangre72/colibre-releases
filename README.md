@@ -51,7 +51,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 5. 체험·이용권
 - **첫 실행일부터 10일 무료 체험**: 모든 기능을 쓸 수 있고, 끝나면 라디오를 뺀 재생(영상·음악·내 파일 등)이 멈추며 설정 화면과 라디오만 쓸 수 있습니다.
-- 정식 판매 전 얼리 액세스 이벤트입니다. 후원해 주신 분께는 6개월 이용권을 드립니다. 체험 후에도 쓰시려면 지원 메일(support@colibre.app)로 이용권을 요청해 주세요. 순서대로 보내 드리며 시간이 걸릴 수 있습니다. 아직 사업 등록·인증 전이라 이용권을 팔지 않고, 당분간 후원으로만 운영합니다(후원은 자발적인 응원이며, 개발자는 앞으로의 기능·지원·업데이트 제공을 약속하지 않습니다). 이 버전에는 가격 안내가 없습니다.
+- 정식 판매 전 얼리 액세스 이벤트입니다. 2027년 1월 1일 정식 판매 시작 예정입니다. 그 전까지 후원해 주신 분께 6개월 이용권을 드립니다. 체험 후에도 쓰시려면 지원 메일(support@colibre.app)로 이용권을 요청해 주세요. 순서대로 보내 드리며 시간이 걸릴 수 있습니다. 아직 사업 등록·인증 전이라 이용권을 팔지 않고, 당분간 후원으로만 운영합니다(후원은 자발적인 응원이며, 개발자는 앞으로의 기능·지원·업데이트 제공을 약속하지 않습니다). 이 버전에는 가격 안내가 없습니다.
 - **테슬라 연동**: 개발 완료, 서비스 제공 가능 확인 및 필요한 절차 후 공개 예정, 현재 버전 미제공.
 - 불편하신 점을 지원 메일(support@colibre.app)로 알려 주시면 개선하겠습니다.
 
@@ -102,7 +102,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 5. Trial and pass
 - **10-day free trial from first run**: all features work; when it ends, playback other than radio (video, music, your files, etc.) stops and only the setup screen and radio remain.
-- This is an early-access event before the official launch; supporters are given a 6-month pass. To keep using Colibre after the trial, request a pass by email to support@colibre.app; passes are sent in order and may take some time. Colibre is not yet business-registered/certified, so it does not sell passes and is run on donations for now (a donation is voluntary; this does not oblige the developer to keep providing features, help or updates). This version states no prices.
+- This is an early-access event before the official launch. Official sales are planned to start on 1 January 2027. Until then, supporters are given a 6-month pass. To keep using Colibre after the trial, request a pass by email to support@colibre.app; passes are sent in order and may take some time. Colibre is not yet business-registered/certified, so it does not sell passes and is run on donations for now (a donation is voluntary; this does not oblige the developer to keep providing features, help or updates). This version states no prices.
 - **Tesla link**: development is complete; it will be released after availability is confirmed and the necessary procedures are done; not provided in the current version.
 - If anything is inconvenient, please tell us at the support email (support@colibre.app) and we will improve it.
 
