@@ -16,7 +16,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 4. **내 미디어 + 라디오**: 내 미디어 폴더의 음악·영상과 전 세계 라디오 방송국 목록을 한곳에서 씁니다.
 5. **좋은 소리**: PC 엔진이 처리하는 소리 효과(3D, Rich 3, Bloom, 베이스 부스트 등), 영상 모드는 화면을 최소화해도 소리가 이어지고, 스트림 음질은 FLAC 24 / 32비트 무손실을 고를 수 있습니다.
 6. **클라우드·중계 서버 없이 내 PC에 직접 연결**: 설정·로그인·미디어·위치 정보는 내 PC에 남습니다.
-7. **내비게이션 화면**: 지도, 내 위치, 나침반, 속도. 경로 안내는 없습니다. 단속카메라 알림은 당분간 제공하지 않습니다.
+7. **내비게이션 화면**: 지도, 내 위치, 나침반, 속도. 경로 안내는 없습니다.
 
 ### 1. 미디어
 - **내 미디어**: PC의 미디어 폴더에 넣어 둔 음악·영상을 폴더째 보여 주고, 폴더 안 이름 검색, 전체 재생, 반복, 셔플, 이어보기를 지원합니다. 파일은 읽기만 하며 지우거나 바꾸지 않습니다. 영상은 MP4·MKV·WebM·MOV를 열고, 기기가 못 푸는 소리는 사본으로 변환해 재생할 수 있습니다(원본은 그대로). 음악은 앨범 정보(MusicBrainz)·표지(Cover Art Archive)·가사(LRCLIB)를 찾아 보여 줍니다(곡 정보 검색어만 해당 서비스로 전달).
@@ -35,7 +35,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 - 마우스 지원: 블루투스 마우스 등 마우스 입력은 가능하지만 아직 매끄럽지 않아 업데이트 예정입니다.
 - 화면 터치를 적극 활용하세요: 차 화면을 직접 터치(탭 클릭·끌기 스크롤)하거나 폰 트랙패드를 쓰는 것이 가장 편합니다.
 - PC 사양이 낮으면 지연이 심하거나 화면·소리가 매끄럽지 않을 수 있습니다 (사양 권장: NVIDIA GeForce, 3D 게임은 높은 사양).
-- 내비게이션: 지도, 내 위치, 나침반(진행 방향), 속도를 보여 줍니다. 경로 안내·목적지 검색은 없습니다. 단속카메라 알림은 당분간 제공하지 않습니다. 한국 밖에서는 지도만 나오고 화면은 영어로 표시됩니다. 위치는 내 PC와 차 브라우저 안에서만 쓰고 개발자 서버로 보내지 않습니다.
+- 내비게이션: 지도, 내 위치, 나침반(진행 방향), 속도를 보여 줍니다. 경로 안내·목적지 검색은 없습니다. 한국 밖에서는 지도만 나오고 화면은 영어로 표시됩니다. 위치는 내 PC와 차 브라우저 안에서만 쓰고 개발자 서버로 보내지 않습니다.
 
 ### 3. 장점
 - **내 PC + 내 공인 IP 직접 연결**: 클라우드·중계 서버를 거치지 않습니다. 설정·로그인·미디어·위치 정보는 내 PC에 남습니다.
@@ -51,7 +51,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 5. 체험·이용권
 - **첫 실행일부터 10일 무료 체험**: 모든 기능을 쓸 수 있고, 끝나면 라디오를 뺀 재생(영상·음악·내 파일 등)이 멈추며 설정 화면과 라디오만 쓸 수 있습니다.
-- 체험 후에는 지원 메일로 이용권을 요청해 주세요. 요청 순서대로 보내 드리며 시간이 걸릴 수 있습니다(후원 여부와 관계없음). 아직 사업 등록·인증 전이라 이용권을 팔지 않고, 당분간 후원으로만 운영합니다(후원은 자발적 응원이며 대가가 없습니다). 이 버전에는 가격 안내가 없습니다.
+- 후원해 주신 분께는 감사의 뜻으로 이용권을 먼저 보내 드립니다. 체험 후에도 쓰시려면 지원 메일(support@colibre.app)로 이용권을 요청해 주세요. 순서대로 보내 드리며 시간이 걸릴 수 있습니다. 아직 사업 등록·인증 전이라 이용권을 팔지 않고, 당분간 후원으로만 운영합니다(후원은 자발적인 응원이며, 개발자는 앞으로의 기능·지원·업데이트 제공을 약속하지 않습니다). 이 버전에는 가격 안내가 없습니다.
 - **테슬라 연동**: 개발 완료, 서비스 제공 가능 확인 및 필요한 절차 후 공개 예정, 현재 버전 미제공.
 - 불편하신 점을 지원 메일(support@colibre.app)로 알려 주시면 개선하겠습니다.
 
@@ -67,7 +67,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 4. **My media + radio**: your media folders and the worldwide radio station list in one place.
 5. **Good sound**: sound effects processed by the PC engine (3D, Rich 3, Bloom, Bass boost, etc.); in video mode sound keeps playing when the screen is minimised; stream quality can be FLAC 24 or 32-bit lossless.
 6. **No cloud, no relay**: connects straight to your PC; settings, sign-in, media and location stay on your PC.
-7. **Navigation screen**: map, your position, compass and speed. No route guidance. Speed-camera alerts are not provided for now.
+7. **Navigation screen**: map, your position, compass and speed. No route guidance.
 
 ### 1. Media
 - **My Media**: shows the music and video in your PC's media folder, folder by folder, with in-folder name search, play all, repeat, shuffle and resume. Files are read-only; Colibre never deletes or changes them. Video opens as MP4, MKV, WebM or MOV; audio the device cannot decode can be converted to a copy (the original is untouched). For music it looks up album info (MusicBrainz), cover art (Cover Art Archive) and lyrics (LRCLIB); only the artist/title search terms go to those services.
@@ -86,7 +86,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 - Mouse support: mouse input, such as a Bluetooth mouse, works but is not smooth yet; an update is planned.
 - Make good use of the touch screen: touching the car screen directly (tap to click, drag to scroll) or using the phone trackpad is the most comfortable way.
 - On a lower-spec PC, delay can be large and the picture and sound may not be smooth (recommended: NVIDIA GeForce; 3D games need a higher spec).
-- Navigation: shows the map, your position, a compass (heading) and speed. There is no route guidance or destination search. Speed-camera alerts are not provided for now. Outside Korea only the map is shown and the UI is in English. Location is used only on your PC and in the car browser and is not sent to the developer's servers.
+- Navigation: shows the map, your position, a compass (heading) and speed. There is no route guidance or destination search. Outside Korea only the map is shown and the UI is in English. Location is used only on your PC and in the car browser and is not sent to the developer's servers.
 
 ### 3. Advantages
 - **Your PC, your public IP, direct connection**: no cloud or relay. Settings, sign-in details, media and location stay on your PC.
@@ -102,7 +102,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 5. Trial and pass
 - **10-day free trial from first run**: all features work; when it ends, playback other than radio (video, music, your files, etc.) stops and only the setup screen and radio remain.
-- After the trial, request a pass by email to support. Passes are sent in order and may take time (regardless of donation). Colibre is not yet business-registered/certified, so it does not sell passes and is run on donations for now (a donation is voluntary and gets nothing in return). This version states no prices.
+- Supporters are sent a pass first as a thank-you. To keep using Colibre after the trial, request a pass by email to support@colibre.app; passes are sent in order and may take some time. Colibre is not yet business-registered/certified, so it does not sell passes and is run on donations for now (a donation is voluntary; this does not oblige the developer to keep providing features, help or updates). This version states no prices.
 - **Tesla link**: development is complete; it will be released after availability is confirmed and the necessary procedures are done; not provided in the current version.
 - If anything is inconvenient, please tell us at the support email (support@colibre.app) and we will improve it.
 
