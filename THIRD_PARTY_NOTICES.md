@@ -11,14 +11,12 @@ Questions: support@colibre.app
 |---|---|---|
 | FFmpeg (`ffmpeg.exe`, `ffprobe.exe`) n8.1.3-17-gc389840894 + 1 patch (`libavutil/hwcontext_d3d11va.c`) | LGPL-3.0-or-later (modified build) | Complete corresponding source (original revision, patch, build recipe): https://github.com/sangre72/ffmpeg/tree/n8.1.3-17-d3d11fix |
 | Node.js v24.12.0 (`node.exe`, Windows x64) | MIT (plus bundled library notices: https://github.com/nodejs/node/blob/v24.12.0/LICENSE) | https://nodejs.org |
-| yt-dlp (`yt-dlp.exe`) | Unlicense (public domain). The Windows executable is a PyInstaller bundle that includes Python (PSF License) and dependency packages, among them mutagen (GPL-2.0-or-later) | https://github.com/yt-dlp/yt-dlp |
 | ViGEmBus driver | BSD-3-Clause | `licenses\ViGEmBus-LICENSE.txt` |
 | Colibre engine, tray program and shim programs | Colibre proprietary license; bundled Rust crates are listed in `licenses\rust\README.md` | not distributed as source |
 
 ## 2. Obligations we honor
 
 - **FFmpeg (LGPL-3.0-or-later, modified).** FFmpeg is run as a separate command-line program and is not linked into Colibre. Built from FFmpeg c389840894 plus one patch with the BtbN FFmpeg-Builds win64-lgpl-8.1 configuration (`--enable-version3`; no `--enable-gpl`, no `--enable-nonfree`). The LGPL-3.0 and GPL-3.0 texts are included (`licenses\vendor\ffmpeg-LGPL-3.0.txt`, `ffmpeg-GPL-3.0.txt`). The complete corresponding source is public at the repository above and will stay public for as long as installers containing this build are distributed. You may replace `bin\ffmpeg.exe` and `bin\ffprobe.exe` with your own build.
-- **mutagen 1.48.1 inside yt-dlp.exe (GPL-2.0-or-later).** yt-dlp.exe is shipped unmodified, as a separate program. As required by GPL-2.0 section 3(a), the mutagen source for that build is included in the installer (`licenses\source\mutagen-1.48.1.tar.gz`).
 - **mediabunny (MPL-2.0).** A bundled player file contains mediabunny code and we patch that file. The patch (the source of the modified file) is published in `licenses\source\` (MPL-2.0 section 3.2).
 - **sharp / libvips (LGPL-3.0-or-later).** Shipped as a separate, replaceable DLL.
 - **node-forge (BSD-3-Clause OR GPL-2.0).** Used under BSD-3-Clause (notice only).
