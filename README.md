@@ -10,7 +10,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 **Colibre는 내 PC에 설치해 쓰는 개인 스트리밍 프로그램입니다.** 내 PC의 영상·소리·라디오·내 미디어(내 음악/영상 파일), PC 화면(원격 데스크톱), 내비게이션 화면을 차 브라우저와 폰으로 보내 줍니다. 별도의 클라우드·중계 서버 없이 내 PC의 공인 IP로 직접 연결합니다.
 
 ### 이런 걸 할 수 있어요
-1. **내 PC 화면 그대로**: 문서·메일·웹·코딩·디자인 등 PC에서 돌아가는 Windows 프로그램을 차 화면에서 쓰는 원격 데스크톱입니다. 폰이 트랙패드·키보드가 되고, 블루투스 키보드·마우스·게임패드도 쓸 수 있습니다. (회사 PC는 회사 정책을 먼저 확인하세요.)
+1. **내 PC 화면 그대로**: 문서·메일·웹·코딩·디자인 등 PC에서 돌아가는 Windows 프로그램을 차 화면에서 쓰는 원격 데스크톱입니다. 폰이 트랙패드·키보드가 되고, 블루투스 키보드·게임패드도 쓸 수 있고, 블루투스 마우스도 가능하지만 아직 매끄럽지 않습니다. (회사 PC는 회사 정책을 먼저 확인하세요.)
 2. **게임·에뮬레이터**: 게임패드로 PC 게임과 에뮬레이터를 즐길 수 있습니다. (3D 게임은 높은 그래픽 사양 권장. 정식으로 가진 소프트웨어만 쓰세요.)
 3. **영상·음악 시청**: DRM 없는 영상과 음악, 내 PC에서 재생되는 화면과 소리를 차에서 봅니다. (DRM 보호 영상은 우회하지 않아 검게 보일 수 있습니다.)
 4. **내 미디어 + 라디오**: 내 미디어 폴더의 음악·영상과 전 세계 라디오 방송국 목록을 한곳에서 씁니다.
@@ -28,10 +28,13 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 2. 원격 (PC 화면 보기·조작)
 - 폰 리모컨의 **Colibre** 탭을 누르면 **차 화면에 내 PC 화면**이 뜨고, **폰은 조작판(트랙패드 + 키보드)**이 됩니다. 문자 명령창(터미널)이 아니라 PC 화면 전체를 보고 조작하는 **원격 데스크톱** 방식입니다.
-- 입력: 폰 트랙패드(탭·끌기·두 손가락 스크롤·확대/축소 등 노트북 터치패드와 같은 방식), 화면 키보드(QWERTY 표준 배열, 한/영 키로 한글 두벌식 입력 — PC의 한글 설정과 무관), 블루투스 키보드·마우스, 게임패드(PC 쪽 원격 입력 드라이버 설치 시). 차 화면을 직접 터치해도 클릭·스크롤을 할 수 있습니다. 게임·에뮬레이터도 쓸 수 있습니다.
+- 입력: 폰 트랙패드(탭·끌기·두 손가락 스크롤·확대/축소 등 노트북 터치패드와 같은 방식), 화면 키보드(QWERTY 표준 배열, 한/영 키로 한글 두벌식 입력 — PC의 한글 설정과 무관), 블루투스 키보드, 블루투스 마우스(가능하지만 아직 매끄럽지 않아 업데이트 예정), 게임패드(PC 쪽 원격 입력 드라이버 설치 시). 차 화면을 직접 터치해도 클릭·스크롤을 할 수 있습니다. 게임·에뮬레이터도 쓸 수 있습니다.
 - PC가 Win+L로 잠기면 차 화면에 잠금 안내가 뜨고, 화면 키보드로 PIN을 입력해 풀 수 있습니다.
 - 보안: 접속은 **핀번호(등록 번호) + 비밀번호**로 기기를 등록한 뒤에만 열리고, 로그인 실패가 쌓이면 차단되며, 등록 기기 수 제한과 접속 기록 확인이 있습니다. 통신은 공인 IP용 정식 인증서(Let's Encrypt IP 인증서)로 암호화됩니다. 내 PC 1대·내 차 1대·내 폰 1대용 개인용이며, DRM 보호 영상은 우회하지 않아 검게 보일 수 있습니다.
 - 주의: 반응 속도는 폰 성능과 네트워크 상태에 크게 좌우됩니다. 설치 옵션 '관리자 확인창을 일반 화면에 표시'를 켜면 Windows 관리자 권한 창(UAC)이 차 화면에 보이고 폰·차 트랙패드로 누를 수 있습니다. 끄면(기본) 창이 보안 화면에 떠서 차 화면이 멈춘 것처럼 보입니다. PC 화면 보기·조작은 NVIDIA GeForce 그래픽카드가 필요합니다.
+- 마우스 지원: 블루투스 마우스 등 마우스 입력은 가능하지만 아직 매끄럽지 않아 업데이트 예정입니다.
+- 화면 터치를 적극 활용하세요: 차 화면을 직접 터치(탭 클릭·끌기 스크롤)하거나 폰 트랙패드를 쓰는 것이 가장 편합니다.
+- PC 사양이 낮으면 지연이 심하거나 화면·소리가 매끄럽지 않을 수 있습니다 (사양 권장: NVIDIA GeForce, 3D 게임은 높은 사양).
 - 내비게이션: 지도, 내 위치, 나침반(진행 방향), 속도, 단속카메라 알림(베타, 실제와 다를 수 있음)을 보여 줍니다. 경로 안내·목적지 검색은 없습니다. 한국 밖에서는 카메라 없이 지도만 나오고 화면은 영어로 표시됩니다. 위치는 내 PC와 차 브라우저 안에서만 쓰고 개발자 서버로 보내지 않습니다.
 
 ### 3. 장점
@@ -43,12 +46,14 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 4. 사용 환경과 설치
 - 64비트 Windows 10/11 PC(사용 중 켜 둠). PC 화면 보기·조작은 NVIDIA GeForce 그래픽카드 필요. 집 밖에서 쓰려면 공인 IP와, TCP 443을 PC로 넘길 수 있는 공유기(포트포워딩)가 필요합니다.
+- PC 사양이 낮으면 지연이 심하거나 화면·소리가 매끄럽지 않을 수 있습니다 (사양 권장: NVIDIA GeForce, 3D 게임은 높은 사양).
 - 설치 파일은 **코드 서명이 없어** Windows SmartScreen 경고가 뜹니다. "추가 정보 → 실행"을 누르고, 먼저 릴리스 노트의 SHA256으로 파일을 확인하세요. 공식 다운로드는 https://github.com/sangre72/colibre-releases/releases/latest 하나뿐입니다. 자세한 설치 순서는 릴리스 노트를 보세요.
 
 ### 5. 체험·이용권
 - **첫 실행일부터 10일 무료 체험**: 모든 기능을 쓸 수 있고, 끝나면 라디오를 뺀 재생(영상·음악·내 파일 등)이 멈추며 설정 화면과 라디오만 쓸 수 있습니다.
 - 체험 후에는 지원 메일로 이용권을 요청해 주세요. 요청 순서대로 보내 드리며 시간이 걸릴 수 있습니다(후원 여부와 관계없음). 아직 사업 등록·인증 전이라 이용권을 팔지 않고, 당분간 후원으로만 운영합니다(후원은 자발적 응원이며 대가가 없습니다). 이 버전에는 가격 안내가 없습니다.
 - **테슬라 연동**: 개발 완료, 서비스 제공 가능 확인 및 필요한 절차 후 공개 예정, 현재 버전 미제공.
+- 불편하신 점을 지원 메일(support@colibre.app)로 알려 주시면 개선하겠습니다.
 
 ## Introducing Colibre (0.1.160)
 
@@ -56,7 +61,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 **Colibre is a personal streaming program you install on your own PC.** It sends your PC's video, sound, radio, your own media files, the PC screen (remote desktop) and a navigation screen to your car browser and phone. There is no cloud or relay server: devices connect straight to your PC's public IP.
 
 ### What you can do
-1. **Your PC screen as it is**: use any Windows program that runs on your PC (documents, mail, web, coding, design...) from the car screen, as a remote desktop. The phone becomes the trackpad and keyboard; a Bluetooth keyboard, mouse and game pad work too. (For a work PC, check your company's policy first.)
+1. **Your PC screen as it is**: use any Windows program that runs on your PC (documents, mail, web, coding, design...) from the car screen, as a remote desktop. The phone becomes the trackpad and keyboard; a Bluetooth keyboard and game pad work too, and a Bluetooth mouse works but is not smooth yet. (For a work PC, check your company's policy first.)
 2. **Games and emulators**: play PC games and emulators with a game pad. (3D games want a strong graphics card. Use only software you legally own.)
 3. **Watch video and listen to music**: DRM-free video and music, and whatever plays on your PC, on the car screen. (DRM-protected video is not bypassed and may show black.)
 4. **My media + radio**: your media folders and the worldwide radio station list in one place.
@@ -74,10 +79,13 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 2. Remote (view and control your PC)
 - The **Colibre** tab on the phone remote opens **your PC screen on the car screen**, and **the phone becomes the control pad (trackpad + keyboard)**. This is a full **remote desktop**, not a text terminal.
-- Input: phone trackpad (tap, drag, two-finger scroll, pinch, like a laptop touchpad), on-screen keyboard (standard QWERTY layout; the Korean/English key types Hangul with an on-screen 2-set layout, independent of the PC's IME), Bluetooth keyboard and mouse, and game pads (needs the remote-input driver on the PC). Touching the car screen directly also clicks and scrolls. Games and emulators work too.
+- Input: phone trackpad (tap, drag, two-finger scroll, pinch, like a laptop touchpad), on-screen keyboard (standard QWERTY layout; the Korean/English key types Hangul with an on-screen 2-set layout, independent of the PC's IME), Bluetooth keyboard, a Bluetooth mouse (works but not smooth yet; an update is planned), and game pads (needs the remote-input driver on the PC). Touching the car screen directly also clicks and scrolls. Games and emulators work too.
 - If the PC is locked with Win+L, the car screen shows a lock notice and you can type your PIN on the on-screen keyboard to unlock it.
 - Security: a device is opened only after registration with a **PIN (registration number) and a password**; repeated failed sign-ins are blocked; there is a device limit and an access history. Traffic is encrypted with a trusted public-IP certificate (Let's Encrypt IP certificate). It is for personal use: your own 1 PC, 1 car, 1 phone. DRM-protected video is not bypassed and may show black.
 - Notes: responsiveness depends heavily on the phone and the network. With the install option 'Show administrator prompts on the normal screen' on, a Windows administrator (UAC) prompt is visible on the car screen and can be answered with the phone/car trackpad. Off (default), the prompt is on the secure desktop and the car screen looks frozen. Viewing and controlling the PC screen needs an NVIDIA GeForce graphics card.
+- Mouse support: mouse input, such as a Bluetooth mouse, works but is not smooth yet; an update is planned.
+- Make good use of the touch screen: touching the car screen directly (tap to click, drag to scroll) or using the phone trackpad is the most comfortable way.
+- On a lower-spec PC, delay can be large and the picture and sound may not be smooth (recommended: NVIDIA GeForce; 3D games need a higher spec).
 - Navigation: shows the map, your position, a compass (heading), speed and speed-camera alerts (beta; may differ from reality). There is no route guidance or destination search. Outside Korea the map shows without cameras and the UI is in English. Location is used only on your PC and in the car browser and is not sent to the developer's servers.
 
 ### 3. Advantages
@@ -89,12 +97,14 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### 4. Requirements and install
 - 64-bit Windows 10/11 PC that stays on. An NVIDIA GeForce card for PC-screen viewing/control. For use away from home: a public IP and a router that can forward TCP 443 to the PC.
+- On a lower-spec PC, delay can be large and the picture and sound may not be smooth (recommended: NVIDIA GeForce; 3D games need a higher spec).
 - The installer is **not code-signed**, so Windows SmartScreen warns: click **More info → Run anyway**, after checking the file against the SHA256 in the release notes. The only official download is https://github.com/sangre72/colibre-releases/releases/latest. See the release notes for the full steps.
 
 ### 5. Trial and pass
 - **10-day free trial from first run**: all features work; when it ends, playback other than radio (video, music, your files, etc.) stops and only the setup screen and radio remain.
 - After the trial, request a pass by email to support. Passes are sent in order and may take time (regardless of donation). Colibre is not yet business-registered/certified, so it does not sell passes and is run on donations for now (a donation is voluntary and gets nothing in return). This version states no prices.
 - **Tesla link**: development is complete; it will be released after availability is confirmed and the necessary procedures are done; not provided in the current version.
+- If anything is inconvenient, please tell us at the support email (support@colibre.app) and we will improve it.
 
 - Support: support@colibre.app
 
