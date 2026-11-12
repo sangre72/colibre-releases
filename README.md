@@ -9,6 +9,15 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 ### 한 줄 소개
 **Colibre는 내 PC에 설치해 쓰는 개인 스트리밍 프로그램입니다.** 내 PC의 영상·소리·라디오·내 미디어(내 음악/영상 파일), PC 화면(원격 데스크톱), 내비게이션 화면을 차 브라우저와 폰으로 보내 줍니다. 별도의 클라우드·중계 서버 없이 내 PC의 공인 IP로 직접 연결합니다.
 
+### 이런 걸 할 수 있어요
+1. **내 PC 화면 그대로**: 문서·메일·웹·코딩·디자인 등 PC에서 돌아가는 Windows 프로그램을 차 화면에서 쓰는 원격 데스크톱입니다. 폰이 트랙패드·키보드가 되고, 블루투스 키보드·마우스·게임패드도 쓸 수 있습니다. (회사 PC는 회사 정책을 먼저 확인하세요.)
+2. **게임·에뮬레이터**: 게임패드로 PC 게임과 에뮬레이터를 즐길 수 있습니다. (3D 게임은 높은 그래픽 사양 권장. 정식으로 가진 소프트웨어만 쓰세요.)
+3. **영상·음악 시청**: DRM 없는 영상과 음악, 내 PC에서 재생되는 화면과 소리를 차에서 봅니다. (DRM 보호 영상은 우회하지 않아 검게 보일 수 있습니다.)
+4. **내 미디어 + 라디오**: 내 미디어 폴더의 음악·영상과 전 세계 라디오 방송국 목록을 한곳에서 씁니다.
+5. **좋은 소리**: PC 엔진이 처리하는 소리 효과(3D, Rich 3, Bloom, 베이스 부스트 등), 영상 모드는 화면을 최소화해도 소리가 이어지고, 스트림 음질은 FLAC 24 / 32비트 무손실을 고를 수 있습니다.
+6. **클라우드·중계 서버 없이 내 PC에 직접 연결**: 설정·로그인·미디어·위치 정보는 내 PC에 남습니다.
+7. **내비게이션 화면**: 지도, 내 위치, 나침반, 속도, 단속카메라 알림(베타). 경로 안내는 없습니다.
+
 ### 1. 미디어
 - **내 미디어**: PC의 미디어 폴더에 넣어 둔 음악·영상을 폴더째 보여 주고, 폴더 안 이름 검색, 전체 재생, 반복, 셔플, 이어보기를 지원합니다. 파일은 읽기만 하며 지우거나 바꾸지 않습니다. 영상은 MP4·MKV·WebM·MOV를 열고, 기기가 못 푸는 소리는 사본으로 변환해 재생할 수 있습니다(원본은 그대로). 음악은 앨범 정보(MusicBrainz)·표지(Cover Art Archive)·가사(LRCLIB)를 찾아 보여 줍니다(곡 정보 검색어만 해당 서비스로 전달).
 - **라디오**: 방송국이 공개한 채널 목록(Radio Browser)을 나라별로 받아 듣습니다. 고음질만·무손실만 걸러 보기, 이름순 정렬, 방송 찾기가 있습니다. Colibre는 목록을 모아 주는 것일 뿐 방송의 소유자나 재배포 주체가 아닙니다.
@@ -45,6 +54,15 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 
 ### In one line
 **Colibre is a personal streaming program you install on your own PC.** It sends your PC's video, sound, radio, your own media files, the PC screen (remote desktop) and a navigation screen to your car browser and phone. There is no cloud or relay server: devices connect straight to your PC's public IP.
+
+### What you can do
+1. **Your PC screen as it is**: use any Windows program that runs on your PC (documents, mail, web, coding, design...) from the car screen, as a remote desktop. The phone becomes the trackpad and keyboard; a Bluetooth keyboard, mouse and game pad work too. (For a work PC, check your company's policy first.)
+2. **Games and emulators**: play PC games and emulators with a game pad. (3D games want a strong graphics card. Use only software you legally own.)
+3. **Watch video and listen to music**: DRM-free video and music, and whatever plays on your PC, on the car screen. (DRM-protected video is not bypassed and may show black.)
+4. **My media + radio**: your media folders and the worldwide radio station list in one place.
+5. **Good sound**: sound effects processed by the PC engine (3D, Rich 3, Bloom, Bass boost, etc.); in video mode sound keeps playing when the screen is minimised; stream quality can be FLAC 24 or 32-bit lossless.
+6. **No cloud, no relay**: connects straight to your PC; settings, sign-in, media and location stay on your PC.
+7. **Navigation screen**: map, your position, compass, speed and speed-camera alerts (beta). No route guidance.
 
 ### 1. Media
 - **My Media**: shows the music and video in your PC's media folder, folder by folder, with in-folder name search, play all, repeat, shuffle and resume. Files are read-only; Colibre never deletes or changes them. Video opens as MP4, MKV, WebM or MOV; audio the device cannot decode can be converted to a copy (the original is untouched). For music it looks up album info (MusicBrainz), cover art (Cover Art Archive) and lyrics (LRCLIB); only the artist/title search terms go to those services.
