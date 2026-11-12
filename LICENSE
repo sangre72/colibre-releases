@@ -27,7 +27,7 @@ Your content, your responsibility
 
 No warranty · liability limit
    Provided as is, without warranty. It may stutter, lag or fail, and features may change or stop.
-   The developer’s liability is limited to the amount you supported in the last 12 months. This does not apply to intent or gross negligence of the developer, or to consumer rights guaranteed by law.
+   The developer’s liability is limited to the amount you supported in the last 6 months. This does not apply to intent or gross negligence of the developer, or to consumer rights guaranteed by law.
 
 Open source
    Bundled open-source components such as FFmpeg and Node.js follow their own licenses, and these terms do not reduce those rights. The list and license texts are in the licenses folder of the install. Modified FFmpeg source: https://github.com/sangre72/ffmpeg/tree/n8.1.3-17-d3d11fix-r3 — the source is also provided on request to support@colibre.app.
