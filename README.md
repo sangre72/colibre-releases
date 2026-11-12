@@ -21,7 +21,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 - 폰 리모컨의 **Colibre** 탭을 누르면 **차 화면에 내 PC 화면**이 뜨고, **폰은 조작판(트랙패드 + 키보드)**이 됩니다. 문자 명령창(터미널)이 아니라 PC 화면 전체를 보고 조작하는 **원격 데스크톱** 방식입니다.
 - 입력: 폰 트랙패드(탭·끌기·두 손가락 스크롤·확대/축소 등 노트북 터치패드와 같은 방식), 화면 키보드(천지인), 블루투스 키보드·마우스, 게임패드(PC 쪽 원격 입력 드라이버 설치 시). 게임·에뮬레이터도 쓸 수 있습니다.
 - 보안: 접속은 **핀번호(등록 번호) + 비밀번호**로 기기를 등록한 뒤에만 열리고, 로그인 실패가 쌓이면 차단되며, 등록 기기 수 제한과 접속 기록 확인이 있습니다. 통신은 공인 IP용 정식 인증서(Let's Encrypt IP 인증서)로 암호화됩니다. 내 PC 1대·내 차 1대·내 폰 1대용 개인용이며, DRM 보호 영상은 우회하지 않아 검게 보일 수 있습니다.
-- 주의: 반응 속도는 폰 성능과 네트워크 상태에 크게 좌우됩니다. PC에 Windows 관리자 권한 창(UAC)이 뜨면 폰 입력이 막혀 PC 앞에서 직접 눌러야 합니다. PC 화면 보기·조작은 NVIDIA GeForce 그래픽카드가 필요합니다.
+- 주의: 반응 속도는 폰 성능과 네트워크 상태에 크게 좌우됩니다. PC에 Windows 관리자 권한 창(UAC)이 뜨면 폰·차 트랙패드로 '예/아니요'를 누를 수 있습니다(원격 입력 드라이버 필요, 반응이 없으면 PC 앞에서 직접 누르세요). PC 화면 보기·조작은 NVIDIA GeForce 그래픽카드가 필요합니다.
 - 내비게이션: 지도·내 위치·단속카메라 알림(베타, 실제와 다를 수 있음)을 보여 줍니다. 위치는 내 PC와 차 브라우저 안에서만 쓰고 개발자 서버로 보내지 않습니다.
 
 ### 3. 장점
@@ -57,7 +57,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 - The **Colibre** tab on the phone remote opens **your PC screen on the car screen**, and **the phone becomes the control pad (trackpad + keyboard)**. This is a full **remote desktop**, not a text terminal.
 - Input: phone trackpad (tap, drag, two-finger scroll, pinch, like a laptop touchpad), on-screen keyboard, Bluetooth keyboard and mouse, and game pads (needs the remote-input driver on the PC). Games and emulators work too.
 - Security: a device is opened only after registration with a **PIN (registration number) and a password**; repeated failed sign-ins are blocked; there is a device limit and an access history. Traffic is encrypted with a trusted public-IP certificate (Let's Encrypt IP certificate). It is for personal use: your own 1 PC, 1 car, 1 phone. DRM-protected video is not bypassed and may show black.
-- Notes: responsiveness depends heavily on the phone and the network. If a Windows administrator (UAC) prompt appears on the PC, phone input is blocked until you click it at the PC. Viewing and controlling the PC screen needs an NVIDIA GeForce graphics card.
+- Notes: responsiveness depends heavily on the phone and the network. If a Windows administrator (UAC) prompt appears on the PC, you can answer Yes/No with the phone/car trackpad (needs the remote input driver; if it does not respond, click it at the PC). Viewing and controlling the PC screen needs an NVIDIA GeForce graphics card.
 - Navigation: shows the map, your position and speed-camera alerts (beta; may differ from reality). Location is used only on your PC and in the car browser and is not sent to the developer's servers.
 
 ### 3. Advantages
