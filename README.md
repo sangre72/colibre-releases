@@ -22,7 +22,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 - 입력: 폰 트랙패드(탭·끌기·두 손가락 스크롤·확대/축소 등 노트북 터치패드와 같은 방식), 화면 키보드(QWERTY 표준 배열, 한/영 키로 한글 두벌식 입력 — PC의 한글 설정과 무관), 블루투스 키보드·마우스, 게임패드(PC 쪽 원격 입력 드라이버 설치 시). 차 화면을 직접 터치해도 클릭·스크롤을 할 수 있습니다. 게임·에뮬레이터도 쓸 수 있습니다.
 - PC가 Win+L로 잠기면 차 화면에 잠금 안내가 뜨고, 화면 키보드로 PIN을 입력해 풀 수 있습니다.
 - 보안: 접속은 **핀번호(등록 번호) + 비밀번호**로 기기를 등록한 뒤에만 열리고, 로그인 실패가 쌓이면 차단되며, 등록 기기 수 제한과 접속 기록 확인이 있습니다. 통신은 공인 IP용 정식 인증서(Let's Encrypt IP 인증서)로 암호화됩니다. 내 PC 1대·내 차 1대·내 폰 1대용 개인용이며, DRM 보호 영상은 우회하지 않아 검게 보일 수 있습니다.
-- 주의: 반응 속도는 폰 성능과 네트워크 상태에 크게 좌우됩니다. PC에 Windows 관리자 권한 창(UAC)이 뜨면 폰·차 트랙패드로 '예/아니요'를 누를 수 있습니다(원격 입력 드라이버 필요, 반응이 없으면 PC 앞에서 직접 누르세요). PC 화면 보기·조작은 NVIDIA GeForce 그래픽카드가 필요합니다.
+- 주의: 반응 속도는 폰 성능과 네트워크 상태에 크게 좌우됩니다. 설치 옵션 '관리자 확인창을 일반 화면에 표시'를 켜면 Windows 관리자 권한 창(UAC)이 차 화면에 보이고 폰·차 트랙패드로 누를 수 있습니다. 끄면(기본) 창이 보안 화면에 떠서 차 화면이 멈춘 것처럼 보입니다. PC 화면 보기·조작은 NVIDIA GeForce 그래픽카드가 필요합니다.
 - 내비게이션: 지도, 내 위치, 나침반(진행 방향), 속도, 단속카메라 알림(베타, 실제와 다를 수 있음)을 보여 줍니다. 경로 안내·목적지 검색은 없습니다. 한국 밖에서는 카메라 없이 지도만 나오고 화면은 영어로 표시됩니다. 위치는 내 PC와 차 브라우저 안에서만 쓰고 개발자 서버로 보내지 않습니다.
 
 ### 3. 장점
@@ -59,7 +59,7 @@ Binary releases only (no source). 다운로드: [최신 릴리스 / latest relea
 - Input: phone trackpad (tap, drag, two-finger scroll, pinch, like a laptop touchpad), on-screen keyboard (standard QWERTY layout; the Korean/English key types Hangul with an on-screen 2-set layout, independent of the PC's IME), Bluetooth keyboard and mouse, and game pads (needs the remote-input driver on the PC). Touching the car screen directly also clicks and scrolls. Games and emulators work too.
 - If the PC is locked with Win+L, the car screen shows a lock notice and you can type your PIN on the on-screen keyboard to unlock it.
 - Security: a device is opened only after registration with a **PIN (registration number) and a password**; repeated failed sign-ins are blocked; there is a device limit and an access history. Traffic is encrypted with a trusted public-IP certificate (Let's Encrypt IP certificate). It is for personal use: your own 1 PC, 1 car, 1 phone. DRM-protected video is not bypassed and may show black.
-- Notes: responsiveness depends heavily on the phone and the network. If a Windows administrator (UAC) prompt appears on the PC, you can answer Yes/No with the phone/car trackpad (needs the remote input driver; if it does not respond, click it at the PC). Viewing and controlling the PC screen needs an NVIDIA GeForce graphics card.
+- Notes: responsiveness depends heavily on the phone and the network. With the install option 'Show administrator prompts on the normal screen' on, a Windows administrator (UAC) prompt is visible on the car screen and can be answered with the phone/car trackpad. Off (default), the prompt is on the secure desktop and the car screen looks frozen. Viewing and controlling the PC screen needs an NVIDIA GeForce graphics card.
 - Navigation: shows the map, your position, a compass (heading), speed and speed-camera alerts (beta; may differ from reality). There is no route guidance or destination search. Outside Korea the map shows without cameras and the UI is in English. Location is used only on your PC and in the car browser and is not sent to the developer's servers.
 
 ### 3. Advantages
